@@ -49,27 +49,3 @@ var swiper = new swiper(".home-slider" ,{
     },
     loop:true,
 });
-
-var swiper = new swiper(".review-slider", {
-     spacebetween:20,
-    centeredslides: true,
-    autoplay:{
-        delay:7500,
-        disableoninteraction:false,
-    },
-    loop:true,
-    breakpoints:{
-        0:{
-            slidesPerView:1,
-        },
-        640:{
-            slidesPerView:2,
-        },
-        768:{
-            slidesPerView:2,
-        },
-        1024:{
-            slidesPerView:3,
-        },
-    }
-});
